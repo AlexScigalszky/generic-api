@@ -20,7 +20,7 @@ namespace GenericApi.Service.Services
 
         public async Task<IEnumerable<object>> GetData(QueryDto query)
         {
-            var clazz = Type.GetType("GenericApi.Model.Models." + query.Entity + ",GenericApi.Model");
+            var clazz = Type.GetType(Constants.NAMESPACE_FOR_ENTITIES + query.Entity + Constants.BINARY_FOR_ENTITIES);
             dynamic param = Activator.CreateInstance(clazz);
 
             return await GetData(param, query);
@@ -58,11 +58,6 @@ namespace GenericApi.Service.Services
         private IQueryable<T> AddCriteria<T>(T _, IQueryable<T> dbSet, QueryCriteriaDto criteria) where T : BaseModel
         {
             return AddCriteria(dbSet, criteria);
-        }
-
-        private sealed class holdPropertyValue<T>
-        {
-            public T v;
         }
 
         private IQueryable<T> AddCriteria<T>(IQueryable<T> dbSet, QueryCriteriaDto criteria) where T : BaseModel
