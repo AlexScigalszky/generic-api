@@ -1,0 +1,12 @@
+E:\GitHub\generic-api\GenericApi.Service\bin\Debug\netcoreapp3.1\GenericApi.Service.deps.json
+E:\GitHub\generic-api\GenericApi.Service\bin\Debug\netcoreapp3.1\GenericApi.Service.dll
+E:\GitHub\generic-api\GenericApi.Service\bin\Debug\netcoreapp3.1\GenericApi.Service.pdb
+E:\GitHub\generic-api\GenericApi.Service\bin\Debug\netcoreapp3.1\GenericApi.Model.dll
+E:\GitHub\generic-api\GenericApi.Service\bin\Debug\netcoreapp3.1\GenericApi.Model.pdb
+E:\GitHub\generic-api\GenericApi.Service\obj\Debug\netcoreapp3.1\GenericApi.Service.csprojAssemblyReference.cache
+E:\GitHub\generic-api\GenericApi.Service\obj\Debug\netcoreapp3.1\GenericApi.Service.csproj.CoreCompileInputs.cache
+E:\GitHub\generic-api\GenericApi.Service\obj\Debug\netcoreapp3.1\GenericApi.Service.AssemblyInfoInputs.cache
+E:\GitHub\generic-api\GenericApi.Service\obj\Debug\netcoreapp3.1\GenericApi.Service.AssemblyInfo.cs
+E:\GitHub\generic-api\GenericApi.Service\obj\Debug\netcoreapp3.1\GenericApi.Service.csproj.CopyComplete
+E:\GitHub\generic-api\GenericApi.Service\obj\Debug\netcoreapp3.1\GenericApi.Service.dll
+E:\GitHub\generic-api\GenericApi.Service\obj\Debug\netcoreapp3.1\GenericApi.Service.pdb
